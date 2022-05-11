@@ -31,6 +31,16 @@ import ReturnMap from './R033_ReturnMap'
 import ReactstrapAlerts from './R034_ReactstrapAlerts'
 import 'bootstrap/dist/css/bootstrap.css'
 import ReactstrapBadges from './R035_ReactstrapBadges'
+import ReactstrapBreadcrumbs from './R036_ReactstrapBreadcrumbs'
+import ReactstrapDropdown from './R037_ReactstrapDropdown'
+import ReactstrapButtonGroup from './R038_ReactstrapButtonGroup'
+import R039_ReactstrapBottons from "./R039_ReactstrapBottons";
+import R040_ReactstrapCard from "./R040_ReactstrapCard";
+import R041_ReactstrapCarousel from "./R041_ReactstrapCarousel";
+import R042_ReactstrapCollapse from "./R042_ReactstrapCollapse";
+import R043_ReactstrapFade from "./R043_ReactstrapFade";
+import R044_ReactstrapForm from "./R044_ReactstrapForm";
+
 
 function App() {
     return (
@@ -76,6 +86,16 @@ function App() {
             <ReturnMap/>
             <ReactstrapAlerts/>
             <ReactstrapBadges/>
+            <ReactstrapBreadcrumbs/>
+            <ReactstrapDropdown/>
+            <ReactstrapButtonGroup/>
+            <R039_ReactstrapBottons/>
+            <R040_ReactstrapCard/>
+            <R041_ReactstrapCarousel/>
+                <R042_ReactstrapCollapse/>
+                <R043_ReactstrapFade/>
+                <R044_ReactstrapForm/>
+
         </div>
     );
 }
