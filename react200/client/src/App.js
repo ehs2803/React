@@ -40,8 +40,18 @@ import R041_ReactstrapCarousel from "./R041_ReactstrapCarousel";
 import R042_ReactstrapCollapse from "./R042_ReactstrapCollapse";
 import R043_ReactstrapFade from "./R043_ReactstrapFade";
 import R044_ReactstrapForm from "./R044_ReactstrapForm";
-
-
+import R047_ReactstrapListGroup from "./R047_ReactstrapListGroup";
+import R048_ReactstrapModal from "./R048_ReactstrapModal";
+import R049_ReactstrapNavbar from "./R049_ReactstrapNavbar";
+import R050_ReactstrapPagination from "./R050_ReactstrapPagination";
+import R051_ReactstrapPopover from "./R051_ReactstrapPopover";
+import R052_ReactstrapProgress from "./R052_ReactstrapProgress";
+import R053_ReactstrapSpinner from "./R053_ReactstrapSpinner";
+import R054_ReactstrapTable from "./R054_ReactstrapTable";
+import R055_ReactstrapTab from "./R055_ReactstrapTab";
+import R056_Sweetalert2Basic from "./R056_Sweetalert2Basic";
+import R057_Sweetalert2Position from "./R057_Sweetalert2Position";
+import R058_Sweetalert2Confirm from "./R058_Sweetalert2Confirm";
 function App() {
     return (
         <div>
@@ -95,7 +105,18 @@ function App() {
                 <R042_ReactstrapCollapse/>
                 <R043_ReactstrapFade/>
                 <R044_ReactstrapForm/>
-
+            <R047_ReactstrapListGroup/>
+            <R048_ReactstrapModal/>
+            <R049_ReactstrapNavbar/>
+            <R050_ReactstrapPagination/>
+            <R051_ReactstrapPopover/>
+            <R052_ReactstrapProgress/>
+            <R053_ReactstrapSpinner/>
+            <R054_ReactstrapTable/>
+            <R055_ReactstrapTab/>
+            <R056_Sweetalert2Basic/>
+            <R057_Sweetalert2Position/>
+                <R058_Sweetalert2Confirm/>
         </div>
     );
 }

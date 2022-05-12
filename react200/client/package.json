@@ -13,6 +13,7 @@
     "react-scripts": "5.0.1",
     "reactstrap": "9.0.0-0",
     "shallow-equal": "^1.2.1",
+    "sweetalert2": "^11.4.13",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
