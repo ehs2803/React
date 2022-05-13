@@ -52,6 +52,20 @@ import R055_ReactstrapTab from "./R055_ReactstrapTab";
 import R056_Sweetalert2Basic from "./R056_Sweetalert2Basic";
 import R057_Sweetalert2Position from "./R057_Sweetalert2Position";
 import R058_Sweetalert2Confirm from "./R058_Sweetalert2Confirm";
+import R059_FetchGet from "./R059_FetchGet";
+import R060_FetchPost from "./R060_FetchPost";
+import R061_AxiosGet from "./R061_AxiosGet";
+import R062_AxiosPost from "./R062_AxiosPost";
+import R063_CallbackFunc from "./R063_CallbackFunc";
+import R064_Promise from "./R064_Promise";
+import R065_Promise from "./R065_Promise";
+
+import R066_onClick from "./R066_onClick";
+import R067_onChange from "./R067_onChange";
+import R068_onMouseMove from "./R068_onMouseMove";
+import R069_onMouseOver from "./R069_onMouseOver";
+import R070_onMouseOut from "./R070_onMouseOut";
+
 function App() {
     return (
         <div>
@@ -117,6 +131,18 @@ function App() {
             <R056_Sweetalert2Basic/>
             <R057_Sweetalert2Position/>
                 <R058_Sweetalert2Confirm/>
+            <R059_FetchGet/>
+            <R060_FetchPost/>
+            <R061_AxiosGet/>
+            <R062_AxiosPost/>
+            <R063_CallbackFunc/>
+            <R064_Promise/>
+            <R065_Promise/>
+                <R066_onClick/>
+                <R067_onChange/>
+                <R068_onMouseMove/>
+                <R069_onMouseOver/>
+                <R070_onMouseOut/>
         </div>
     );
 }
