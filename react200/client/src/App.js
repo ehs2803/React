@@ -65,6 +65,14 @@ import R067_onChange from "./R067_onChange";
 import R068_onMouseMove from "./R068_onMouseMove";
 import R069_onMouseOver from "./R069_onMouseOver";
 import R070_onMouseOut from "./R070_onMouseOut";
+import R071_OnKey from "./R071_OnKey";
+import R072_onSubmit from "./R072_onSubmit";
+import R073_ReactRef from "./R073_ReactRef";
+import R074_ReactCurrying from "./R074_ReactCurrying";
+import R075_ReactHoc from "./R075_ReactHoc";
+import R076_ContextApi from "./R076_ContextApi";
+
+import StrAddButton from "./StrAddButton";
 
 function App() {
     return (
@@ -143,6 +151,13 @@ function App() {
                 <R068_onMouseMove/>
                 <R069_onMouseOver/>
                 <R070_onMouseOut/>
+            <R071_OnKey/>
+            <R072_onSubmit/>
+            <R073_ReactRef/>
+            <R074_ReactCurrying/>
+            <R075_ReactHoc/>
+            <R076_ContextApi/>
+
         </div>
     );
 }
