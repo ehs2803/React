@@ -73,10 +73,23 @@ import R075_ReactHoc from "./R075_ReactHoc";
 import R076_ContextApi from "./R076_ContextApi";
 
 import StrAddButton from "./StrAddButton";
+import R085_cookieSave from "./R085_cookieSave";
+import R086_cookieLoad from "./R086_cookieLoad";
+import R087_cookieRemove from "./R087_cookieRemove";
+
+import R089_reactRouter from "./R089_reactRouter";
+import R089_reactRouter2 from "./R089_reactRouter2";
+import {BrowserRouter, Route} from "react-router-dom";
+import r089_reactRouter from "./R089_reactRouter";
+import r089_reactRouter2 from "./R089_reactRouter2";
+
+import HeaderAdmin from "./components/Header/Header admin";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     return (
         <div>
+
             <h1>Start React 200!</h1>
             <p>HTML 적용하기</p>
             <ImportConponent></ImportConponent>
@@ -157,6 +170,10 @@ function App() {
             <R074_ReactCurrying/>
             <R075_ReactHoc/>
             <R076_ContextApi/>
+            <R085_cookieSave/>
+            <R086_cookieLoad/>
+            <R087_cookieRemove/>
+
 
         </div>
     );
